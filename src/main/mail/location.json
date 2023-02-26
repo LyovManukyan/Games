@@ -1,0 +1,24 @@
+[
+  {
+    "id":1,
+    "name":"New York, Washington",
+    "road":"10-765 MD-Road",
+    "country":"Washington, DC, United States,",
+    "phone":"Phone:123 456 7890",
+    "mailPath":"mailtoinfo(at)example.com",
+    "mail":"info(at)example.com",
+    "pathName":"Visit on Google Maps >>",
+    "path":"#"
+  },
+  {
+    "id":2,
+    "name":"London, UK",
+    "road":"10-765 MD-Road",
+    "country":"Lorem ipsum, domon sit, UK,",
+    "phone":"Phone:123 456 7890",
+    "mailPath":"mailto:info(at)example.com",
+    "mail":"info(at)example.com",
+    "pathName":"Visit on Google Maps >>",
+    "path":"#"
+  }
+]

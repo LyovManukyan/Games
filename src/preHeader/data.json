@@ -1,0 +1,65 @@
+[
+  {
+    "id":1,
+    "preHeader":[
+
+    ]
+  },
+  {
+    "id":2,
+    "header":[
+      {
+        "id":1,
+        "headName":"Home",
+        "link":"/"
+      },
+      {
+        "id":2,
+        "headName":"About",
+        "link":"/about"
+      },
+      {
+        "id":3,
+        "headName":"Reviews",
+        "link":"/reviews"
+      },
+      {
+        "id":4,
+        "headName":"News",
+        "link":"/news"
+      },
+      {
+        "id":5,
+        "headName":"Gallery",
+        "link":"/gallery"
+      },
+      {
+        "id":6,
+        "headName":"Contact",
+        "link":"/mail"
+      },
+      {
+        "id":7,
+        "headName":"Favourite",
+        "link":"/favourite"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "mailCall":[
+      {
+        "id":1,
+        "image":"./images/mail.png",
+        "name":"info(at)example.com",
+        "path":"mailto:info(at)example.com"
+      },
+      {
+        "id":2,
+        "image":"./images/phone.png",
+        "name":"(+1)000 123 456789",
+        "path":"tel:(+1)000 123 456789"
+      }
+    ]
+  }
+]

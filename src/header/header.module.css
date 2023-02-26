@@ -1,0 +1,126 @@
+.headerOuter{
+  padding-top: 40px;
+  padding-bottom: 120px;
+  background-image: url(../main/home/section1/images/slideImg3.jpg);
+  justify-content: space-around;
+}
+.header,.headerOuter{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.header{
+  padding-top: 40px;
+  width: 83%;
+  justify-content: space-between;
+}
+.logo a{
+  text-transform: capitalize;
+  font-size:3.4vw;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.menuUl li{
+  display: flex;
+  gap: 0 30px;
+}
+.menuItem{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: white;
+}
+.active{
+  color: #F43C60;
+}
+.burgerMenuUl{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 100.5vh;
+  top: 0;
+  right: 0;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  background-color: var(--lightBlue);
+  z-index: 1;
+}
+.burgerMenuUl li{
+  display: flex;
+  gap: 0 30px;
+}
+.burgerMenuUl li a{
+  color: var(--pink);
+  z-index: 3;
+}
+.openButton,.closeButton{
+  border: none;
+  background: none;
+  color: var(--pink);
+}
+.button{
+  font-size:8vw !important;
+}
+.BtnNone{
+  display: none;
+}
+
+@media screen and (max-width:990px) and (min-width:800px) {
+  .headerOuter{
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .logo a{
+    font-size:28px;
+  }
+  .menuItem{
+    font-size: 18px;
+  }
+  .headerOuter{
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .logo a{
+    font-size:23px;
+  }
+  .menuItem{
+    font-size: 13px;
+  }
+  .headerOuter{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:449px) and (min-width:300px) {
+  .logo a{
+    font-size:16px;
+  }
+  .menuItem{
+    font-size: 8px;
+  }
+  .headerOuter{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .burgerMenuUl li{
+    display: flex;
+    gap: 0 15px;
+  }
+  .burgerMenuUl{
+    gap: 10px;
+  }
+  .header{
+    padding-top: 10px;
+    width: 83%;
+    justify-content: space-between;
+  }
+}

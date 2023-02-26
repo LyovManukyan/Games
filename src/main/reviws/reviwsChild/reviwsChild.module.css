@@ -1,0 +1,521 @@
+.reviwsChild{
+  padding: 80px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.reviwsChildLeft{
+  width: 65%;
+}
+.reviwsChildRight{
+  width: 32%;
+}
+.sectionOneMainParent{
+  width: 100%;
+  padding-bottom: 60px;
+}
+.sectionOneImg{
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+.sectionOneText{
+  font-size: 1.3vw;
+  line-height: 1.8em;
+  color: grey;
+  padding: 15px 0 35px 0;
+}
+.sectionOneUlParent{
+  width: 100%;
+  padding: 25px 0;
+  border-bottom:2px dashed;
+  border-top:2px dashed;
+}
+.sectionOneUl{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sectionOneUl li{
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+  font-size: 1.3vw;
+  color: grey;
+}
+.sectionOneUl li a{
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: grey;
+  font-weight: 400;
+}
+
+
+/*//////////////////////////////Responses////////////////////////*/
+.responses{
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+  padding-bottom: 100px;
+}
+.responsesHeadName{
+  font-size: 2.4vw;
+  color: var(--pink);
+  font-weight: 400;
+}
+.responsesMainParent{
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+.responsesParent{
+  display: flex;
+  align-items: flex-start;
+  gap: 0 30px;
+}
+.responsesImgParent{
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  width: 15%;
+}
+.responsesImgParent img{
+  width: 100%;
+}
+.responsesParent a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.responsesCommentParent{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.responsesComment{
+  color: grey;
+  font-size: 1.3vw;
+  padding-bottom: 50px;
+  line-height: 1.8em;
+  width: 100%;
+  height: 100px;
+}
+.responsesDateParent{
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 20px;
+  width: 100%;
+}
+.responsesDate{
+  text-transform: uppercase;
+  font-size: 1.3vw;
+}
+.ViewAll,.CloseALl{
+  width: fit-content;
+  margin: auto;
+  background-color: none;
+  border: none;
+  font-size: 1.1vw;
+  color: var(--pink);
+}
+
+/*///////////////////////////////LeaveComment////////////////////////*/
+.leaveComment{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+.leaveCommentHeadName{
+  font-size: 2.2vw;
+  color: var(--pink); 
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.leaveCommentFormParent{
+  padding-top: 20px;
+}
+.leaveCommentForm{
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.formInputs{
+  padding: 20px 0;
+  border: 2px solid lightgrey;
+}
+.formInputs::placeholder,.formMessage::placeholder{
+  color: grey;
+  font-size: 1.3vw;
+}
+.formMessage{
+  padding: 20px 0 200px 0;
+  border: 2px solid lightgrey;
+}
+.formButton{
+  width: 20%;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  background-color: #69d2e8;
+  border: 3px solid #69d2e8;
+  color: white;
+  transition: 1s;
+}
+.formButton:hover{
+  color: var(--lightBlue);
+  background-color: white;
+}
+
+
+/*///////////////////////////////TopGames////////////////////////*/
+.topGame{
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.topGameHeadName{
+  font-size:2.4vw;
+  color: var(--pink);
+  font-weight: 400;
+}
+.topGameUlParent{
+  width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 7px;
+  border-bottom: none;
+}
+.topGameA{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size:1.5vw;
+  padding: 11px 0 11px 30px;
+}
+.topGameUl li{
+  padding: 11px 0;
+  border-bottom: 1px solid lightgrey;
+}
+.topGameUl li:hover,.topGameA:hover{
+  background-color: #69d2e8;
+  color: white;
+}
+
+
+/*///////////////////////////////RecentPosts////////////////////////*/
+.recentPosts{
+  padding-top: 50px;
+  width: 100%;
+}
+.recentPostsHeadName{
+  font-size: 2.4vw;
+  color: var(--pink);
+  font-weight: 400;
+}
+.recentPostsMainParent{
+  display: flex;
+  flex-direction: column;
+  gap: 80px 0;
+  padding-top: 20px;
+}
+.recentPostsParent{
+  display: flex;
+  gap: 0 20px;
+}
+.recentPostsImgParent{
+  width: 80%;
+  overflow: hidden;
+}
+.recentPostsImgParent img{
+  width: 100%;
+  transition: 1.5s;
+}
+.recentPostsImgParent img:hover{
+  transform: scale(1.1);
+}
+.recentPostsTextParent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  padding-top: 10px;
+  width: fit-content;
+}
+.recentPostsTextParent h3{
+  font-size: 1.5vw;
+  color: var(--pink);
+}
+.recentPostsTextParent a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.4vw;
+  font-weight: 500;
+  width: fit-content;
+  transition: 1s;
+}
+.recentPostsTextParent a:hover{
+  color: green;
+}
+.recentPostsTextParent p{
+  font-size: 1.3vw;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+}
+.recentPostsTextParent button{
+  width: fit-content;
+  padding: 12px ;
+  border: 2px solid #69d2e8;
+  background-color: #69d2e8;
+  font-size: 1.1vw;
+  color: white;
+  border-radius: 5px;
+  transition: 1s;
+}
+.recentPostsTextParent button:hover{
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+}
+.active{
+  color: var(--pink);
+}
+
+@media screen and (max-width:1600px) and (min-width:1400px) {
+  .responsesComment{
+    height: 70px;
+  }
+  .formMessage{
+   padding-bottom: 180px;
+  }
+  .formButton{
+    padding: 18px;
+  }
+  .responses{
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width:1399px) and (min-width:1200px) {
+  .responsesComment{
+    height: 50px;
+  }
+  .formMessage{
+    padding-bottom: 160px;
+   }
+   .formButton{
+    padding: 16px;
+   }
+   .responses{
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width:1199px) and (min-width:1000px) {
+  .responsesComment{
+    height: 40px;
+  }
+  .formMessage{
+    padding-bottom: 140px;
+   }
+   .formButton{
+    padding: 14px;
+   }
+   .responses{
+    padding-bottom:60px;
+  }
+}
+@media screen and (max-width:999px) and (min-width:800px) {
+  .responsesComment{
+    height: 20px;
+  }
+  .formMessage{
+    padding-bottom: 120px;
+   }
+   .formButton{
+    padding: 12px;
+   }
+   .responses{
+    padding-bottom: 50px;
+  }
+  .sectionOneImg{
+    height: 350px;
+    object-fit: contain;
+  }
+  .sectionOneText{
+    padding: 15px 0 25px 0;
+  }
+  .topGameUl li{
+    padding: 6px 0;
+  }
+  .topGameA{
+    padding: 2px 0 2px 15px;
+  }
+  .recentPosts{
+    padding-top: 20px;
+  }
+  .recentPostsMainParent{
+    gap: 40px 0;
+  }
+  .sectionOneUlParent{
+    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width:799px) and (min-width:600px) {
+  .reviwsChild{
+    padding: 60px 0 0 0;
+  }
+  .formMessage{
+    padding-bottom: 100px;
+   }
+   .formButton{
+    padding: 12px;
+   }
+   .formInputs{
+    padding: 15px 0;
+  }
+  .leaveCommentHeadName{
+    font-size:18px;
+  }
+  .leaveCommentForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .responsesHeadName{
+    font-size: 20px;
+  }
+  .responsesComment{
+    height: 5px;
+  }
+  .responses{
+    padding-bottom: 50px;
+  }
+  .responsesMainParent{
+    gap: 30px 0;
+  }
+  .responsesParent{
+    gap: 0 20px;
+  }
+  .responsesImgParent{
+    gap: 10px 0;
+  }
+  .sectionOneImg{
+    height: 350px;
+    object-fit: cover;
+  }
+  .sectionOneUlParent{
+    padding: 12px 0;
+  }
+  .sectionOneUl img{
+    width: 10%;
+  }
+  .sectionOneUlImg{
+    width: 25% !important;
+  }
+  .sectionOneText{
+    padding:10px 0 25px 0;
+  }
+  .sectionOneUl li{
+    gap: 0 2px;
+  }
+  .topGameHeadName,.recentPostsHeadName{
+    font-size:20px;
+  }
+  .topGameUl li{
+    padding: 6px 0;
+  }
+  .topGameA{
+    padding: 2px 0 2px 15px;
+  }
+  .recentPosts{
+    padding-top: 20px;
+  }
+  .recentPostsMainParent{
+    gap: 20px 0;
+  }
+}
+
+
+
+@media screen and (max-width:599px) and (min-width:450px) {
+  .reviwsChild{
+    padding: 50px 0 0 0;
+  }
+  .formMessage{
+    padding-bottom: 80px;
+   }
+   .formButton{
+    padding: 6px;
+   }
+   .formInputs{
+    padding: 10px 0;
+  }
+  .leaveCommentHeadName{
+    font-size:18px;
+  }
+  .leaveCommentForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  .responsesHeadName{
+    font-size: 20px;
+  }
+  .responsesComment{
+    height: 0;
+  }
+  .responses{
+    padding-bottom: 40px;
+  }
+  .responsesMainParent{
+    gap: 20px 0;
+  }
+  .responsesParent{
+    gap: 0 20px;
+  }
+  .responsesImgParent{
+    gap: 10px 0;
+  }
+  .sectionOneImg{
+    height: 300px;
+    object-fit: cover;
+    padding-top: 8px;
+  }
+  .sectionOneUlParent{
+    padding: 10px 0;
+  }
+  .sectionOneUl img{
+    width: 10%;
+  }
+  .sectionOneUlImg{
+    width: 25% !important;
+  }
+  .sectionOneText{
+    padding:10px 0 25px 0;
+  }
+  .sectionOneUl li{
+    gap: 0 2px;
+  }
+  .topGameHeadName,.recentPostsHeadName{
+    font-size:20px;
+  }
+  .topGameUl li{
+    padding: 1px 0 5px 0;
+  }
+  .topGameA{
+    padding: 2px 0 2px 15px;
+  }
+  .recentPosts{
+    padding-top: 15px;
+  }
+  .recentPostsMainParent{
+    gap: 15px 0;
+  }
+  .recentPostsTextParent button{
+    padding: 8px ;
+  }
+  .recentPostsTextParent p{
+    padding-bottom: 5px;
+  }
+  .recentPostsTextParent{
+    gap: 8px 0;
+    padding-top: 0;
+  }
+}

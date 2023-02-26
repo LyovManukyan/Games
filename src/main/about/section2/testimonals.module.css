@@ -1,0 +1,80 @@
+.testimonalsMainParent{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonalsMParent{
+  width: 30%;
+}
+.testimonalsMParent p{
+  width: 85%;
+  font-size: 1.3vw;
+  color: grey;
+  line-height: 1.5em;
+  padding: 40px;
+  background-color: black;
+}
+.testimonalsMParent p:hover{
+  color: white;
+}
+.testimonalsMParent h2{
+  font-size:2vw;
+  color: #69D2E8;
+  font-weight: 500;
+  padding: 20px 0 10px 0;
+}
+.testimonalsMParent a{
+  text-decoration: none;
+  color: #F43C60;
+  font-size: 1.5vw;
+}
+.testimonals{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.testimonalsHeadName{
+  color: #F43C60;
+  font-size: 2.7vw;
+  font-weight: 500;
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .testimonalsMParent p{
+    width: 75%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width:799px) and (min-width:600px) {
+  .testimonalsHeadName{
+    font-size: 28px;
+  }
+  .testimonalsMParent p{
+    width: 75%;
+    padding: 25px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .testimonalsHeadName{
+    font-size: 25px;
+  }
+  .testimonalsMParent p{
+    width: 75%;
+    padding: 20px;
+  }
+  .testimonalsMParent h2{
+    padding: 10px 0 0 0;
+  }
+}
+@media screen and (max-width:449px) and (min-width:300px) {
+  .testimonalsHeadName{
+    font-size: 18px;
+  }
+  .testimonalsMParent p{
+    width: 75%;
+    padding: 12px;
+  }
+  .testimonalsMParent h2{
+    padding: 10px 0 0 0;
+  }
+}

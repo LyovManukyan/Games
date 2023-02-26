@@ -1,0 +1,90 @@
+.sectOneMainParent{
+  padding: 60px 0 100px 0;
+}
+.about{
+  text-align: center;
+  font-size:5.6vw;
+  color:#F43C60 ;
+}
+.sectOneParent{
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.aboutTextMainParent{
+  display: flex;
+  flex-direction: column;
+  width: 56%;
+}
+.aboutTextMainParent h2{
+  font-size: 2.6vw;
+  font-weight: 500;
+  color: #69D2E8;
+  padding-bottom: 20px;
+}
+.aboutTextMainParent p{
+  font-size: 1.2vw;
+  line-height: 2em;
+  padding-bottom: 25px;
+  color: grey;
+}
+.aboutTextUl{
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+.aboutTextUl li{
+  font-size: 1.2vw;
+  color: grey;
+}
+.aboutTextUl li span{
+  color: #F43C60;
+}
+.aboutImgParent{
+  width: 42%;
+}
+.aboutImgParent img{
+  width: 100%;
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .sectOneMainParent{
+    padding: 60px 0 60px 0;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .sectOneMainParent{
+    padding: 40px 0 40px 0;
+  }
+  .about{
+    font-size:34px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .sectOneMainParent{
+    padding: 30px 0 30px 0;
+  }
+  .about{
+    font-size:30px;
+  }
+}
+@media screen and (max-width:449px) and (min-width:300px) {
+  .sectOneMainParent{
+    padding: 15px 0 15px 0;
+  }
+  .about{
+    font-size:20px;
+  }
+  .sectOneParent{
+    padding-top: 20px;
+  }
+  .aboutTextMainParent h2{
+    padding-bottom: 10px;
+  }
+  .aboutTextMainParent p{
+    padding-bottom: 10px;
+  }
+  .aboutTextUl{
+    gap: 5px 0;
+  }
+}

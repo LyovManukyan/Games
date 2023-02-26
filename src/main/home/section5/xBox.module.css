@@ -1,0 +1,76 @@
+.xBoxSection{
+  display: flex;
+  padding: 100px 0 80px 0;
+  justify-content: space-around;
+}
+.xBoxParent{
+  width: 55%;
+  /* border: solid; */
+}
+.xBoxParent h1{
+  font-size:6.1vw;
+  color: var(--pink);
+}
+.xBoxParent h3{
+  font-size: 2.8vw;
+  font-weight: 400;
+  color: var(--lightBlue);
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+.xBoxParent p{
+  font-size: 1.3vw;
+  word-spacing: 1px;
+  color: grey;
+  padding-bottom: 50px;
+}
+.xBoxHover{
+  background: linear-gradient(#69D2E8 0 0) no-repeat;
+  background-size: 100% 100%;
+  transition: .8s;
+  padding: 15px 35px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+}
+.xBox{
+  background-color: var(--pink);
+}
+.xBoxHover:hover {
+  background-size:100% 0% ;
+  transition: .8s;
+}
+.xboxImg{
+  width: 45%;
+}
+.xboxImg img{
+  width: 100%;
+}
+
+@media screen and (max-width:799px) and (min-width:600px) {
+  .xBoxHover{
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .xBoxHover{
+    padding: 8px 18px;
+  }
+  .xBoxSection{
+    padding: 50px 0 40px 0;
+  }
+}
+@media screen and (max-width:449px) and (min-width:300px) {
+  .xBoxHover{
+    padding: 4px 12px;
+  }
+  .xBoxSection{
+    padding: 40px 0 30px 0;
+  }
+  .xBoxParent p{
+    padding-bottom: 5px;
+  }
+  .xBoxParent h3{
+    padding-bottom: 10px;
+  }
+}

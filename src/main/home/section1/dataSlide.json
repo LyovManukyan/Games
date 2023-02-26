@@ -1,0 +1,20 @@
+[ 
+  { 
+    "id":0, 
+    "img":"./images/slideImg1.jpg", 
+    "title":"Adventure Game - 343 industries - master chief", 
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non." 
+  }, 
+  { 
+    "id":1, 
+    "img":"./images/slideImg2.jpg", 
+    "title":"God of war - kratos - sony santa monica", 
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non." 
+  }, 
+  { 
+    "id":2, 
+    "img":"./images/slideImg3.jpg", 
+    "title":"Battlefield 4 - game - explosion - digital illusions", 
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non." 
+  } 
+]

@@ -1,0 +1,121 @@
+.reviews{
+  padding: 50px 0 100px 0;
+}
+.reviewsHeadName{
+  font-size:3.7vw;
+  color: #F43C60;
+  text-align: center;
+}
+.reviewsMainParent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px 0;
+  padding-top: 70px;
+}
+.reviewsParent{
+  width: 28%;
+  padding: 25px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+.reviewsParent img{
+  width: 100%;
+}
+.reviewsParent h2{
+  font-size: 1.5vw;
+  font-weight: 500;
+  transition: 1s;
+  padding: 15px 0;
+}
+.reviewsParent h2:hover{
+  color: #69D2E8;
+}
+.reviewsParent p{
+  font-size: 1.1vw;
+  line-height: 1.8em;
+  color: grey;
+}
+.reviewsImgParent{
+  position: relative;
+}
+.reviewsFavoriteButton{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  z-index: 20;
+}
+.favIcon{
+  fill: var(--lightBlue) !important;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:1000px) {
+  .reviewsMainParent{
+    gap: 40px 0;
+  }
+  .reviewsParent{
+    padding: 20px;
+  }
+}
+@media screen and (max-width:990px) and (min-width:800px) {
+  .reviewsMainParent{
+    gap: 20px 0;
+  }
+  .reviewsParent{
+    padding: 15px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .reviewsParent{
+    width: 27%;
+    padding: 12px;
+  }
+  .reviewsHeadName{
+    font-size:28px;
+  }
+  .reviews{
+    padding: 40px 0 80px 0;
+  }
+  .reviewsMainParent{
+    padding-top: 50px;
+    gap: 15px 0;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .reviewsParent{
+    width: 25%;
+    padding: 12px;
+  }
+  .reviewsHeadName{
+    font-size:28px;
+  }
+  .reviews{
+    padding: 30px 0 60px 0;
+  }
+  .reviewsMainParent{
+    padding-top: 40px;
+    gap: 15px 0;
+  }
+}
+@media screen and (max-width:449px) and (min-width:300px) {
+  .reviewsParent{
+    width: 24%;
+    padding: 10px;
+  }
+  .reviewsHeadName{
+    font-size:20px;
+  }
+  .reviews{
+    padding: 20px 0 40px 0;
+  }
+  .reviewsMainParent{
+    padding-top: 20px;
+    gap: 15px 0;
+  }
+  .reviewsParent h2{
+    padding: 5px 0;
+  }
+}

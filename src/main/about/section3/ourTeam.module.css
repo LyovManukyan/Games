@@ -1,0 +1,58 @@
+.ourTeam{
+  padding: 60px 0 80px 0;
+}
+.ourTeamHeadName{
+  font-size: 2.6vw;
+  color: #F43C60;
+  font-weight: 500;
+}
+.outTeamMainParent{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.ourTeamParent{
+  width: 23%;
+}
+.ourTeamParent img{
+  width: 100%;
+}
+.ourTeamParent h2{
+  font-size: 1.5vw;
+  color: #69D2E8;
+  padding: 15px 0 20px 0;
+  font-weight: 500;
+}
+.ourTeamParent p{
+  font-size: 1.3vw;
+  color: grey;
+  line-height: 2em;
+}
+
+@media screen and (max-width:799px) and (min-width:600px) {
+  .ourTeamHeadName{
+    font-size: 25px;
+  }
+  .ourTeam{
+    padding: 40px 0 60px 0;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .ourTeamHeadName{
+    font-size: 22px;
+  }
+  .ourTeam{
+    padding: 40px 0 50px 0;
+  }
+}
+@media screen and (max-width:449px) and (min-width:300px) {
+  .ourTeamHeadName{
+    font-size: 18px;
+  }
+  .ourTeam{
+    padding: 30px 0 40px 0;
+  }
+  .ourTeamParent h2{
+    padding: 5px 0 10px 0;
+  }
+}

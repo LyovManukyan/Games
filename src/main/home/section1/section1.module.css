@@ -1,0 +1,136 @@
+.slideMainParent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.slydeParent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+}
+.slideImgParent{
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  z-index: -1;
+}
+.slideImgParent img{
+  width: 100%;
+  height: 90vh;
+}
+.slideTextParent{
+  color: white;
+  position: absolute;
+  padding-bottom: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.slideTextParent h2{
+  font-size: 3.9vw;
+  padding-bottom: 15px;
+}
+.slideTextParent p{
+  width: 66%;
+  font-size: 1.6vw;
+  line-height: 2;
+}
+.paginationParent{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.paginationItems,.paginationItemsActive{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid white;
+}
+.paginationItems{
+  background-color: #69D2E8;
+}
+.paginationItemsActive{
+  background-color: #D52F47;
+}
+@media screen and (max-width:1400px) and (min-width:1200px) {
+  .slideImgParent{
+    top: 80px;
+  }
+}
+@media screen and (max-width:1190px) and (min-width:1000px) {
+  .slideImgParent{
+    top: 78px;
+  }
+}
+@media screen and (max-width:990px) and (min-width:800px) {
+  .slideImgParent{
+    top: 75px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .slideImgParent{
+    top: 70px;
+  }
+  .slydeParent{
+    height: 70vh;
+  }
+  .slideImgParent img{
+    height: 80vh;
+  }
+  .paginationParent{
+    height: 180px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .slideImgParent{
+    top: 60px;
+  }
+  .slydeParent{
+    height: 50vh;
+  }
+  .slideImgParent img{
+    height: 65vh;
+  }
+  .paginationParent{
+    height: 350px;
+  }
+  .slideTextParent{
+    padding-bottom: 160px;
+  }
+}
+
+@media screen and (max-width:449px) and (min-width:300px) {
+  .slideImgParent{
+    top: 38px;
+  }
+  .slydeParent{
+    height: 30vh;
+  }
+  .slideImgParent img{
+    height: 45vh;
+  }
+  .paginationParent{
+    height: 400px;
+  }
+  .slideTextParent{
+    padding-bottom: 30px;
+  }
+  .paginationItems,.paginationItemsActive{
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+  }
+}

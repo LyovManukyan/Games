@@ -1,0 +1,72 @@
+[
+  {
+    "id":1,
+    "headName":"About Us",
+    "toPage":[
+      {
+        "id":10,
+        "text":"Sed faucibus mollis laoreet. Sed vehicula faucibus tristique lectus a orci molestie finibus. Suspendisse pharetra, metus sed rutrum pretium."
+      }
+    ]
+  },
+  {
+    "id":2,
+    "headName":"Categories",
+    "toPage":[
+      {"id":11,"name":"Action","path":"/"},
+      {"id":12,"name":"Racing","path":"/"},
+      {"id":13,"name":"Adventure","path":"/"},
+      {"id":14,"name":"Simulation","path":"/"},
+      {"id":15,"name":"Bike","path":"/"}
+    ]
+  },
+  {
+    "id":3,
+    "headName":"Platform",
+    "toPage":[
+      {"id":16,"name":"Pc","path":"/"},
+      {"id":17,"name":"Ps4","path":"/"},
+      {"id":18,"name":"XBOX 360","path":"/"},
+      {"id":19,"name":"XBOX ONE","path":"/"},
+      {"id":20,"name":"PSP","path":"/"}
+    ]
+  },
+  {
+    "id":4,
+    "headName":"Information",
+    "toPage":[
+      {"id":21,"name":"Contact Us","path":"/"},
+      {"id":22,"name":"Wish Lists","path":"/"},
+      {"id":23,"name":"Site Map","path":"/"},
+      {"id":24,"name":"Terms & Conditions","path":"/"}
+          ],
+    "links":[
+        {
+          "id":25,
+          "img":"images/facebook.png",
+          "path_link":"https://www.facebook.com/"
+        },
+        {
+          "id":26,
+          "img":"images/twitter.png",
+          "path_link":"https://twitter.com/?lang=en"
+        },
+        {
+          "id":27,
+          "img":"images/gplus.png",
+          "path_link":"https://www.gpluselectronics.com/en"
+        },
+        {
+          "id":28,
+          "img":"images/camera.png",
+          "path_link":"https://webcamtoy.com/ru/"
+        },
+        {
+          "id":29,
+          "img":"images/youtube.png",
+          "path_link":"https://www.youtube.com/"
+        }
+  
+      ]
+  }
+]

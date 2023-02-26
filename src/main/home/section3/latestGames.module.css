@@ -1,0 +1,163 @@
+.latesGamesContentParent{
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.gamesMainParent{
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+  padding-top: 50px;
+  width: 40%;
+}
+.gamesParent{
+  display: flex;
+  gap: 0px 30px;
+  width: 100%;
+}
+.gamesImgParent{
+  width: 25%;
+}
+.gamesImgParent img{
+  object-fit: cover;
+  width: 100%;
+}
+.gamesTextParent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  width: 60%;
+}
+.gamesTextAParent{
+  width: fit-content;
+  height: fit-content;
+  padding: 15px 10px;
+  background-color: #F4F4F4;
+}
+.gamesTextAParent a{
+  text-decoration: none;
+  color:var(--lightBlue) ;
+  font-size: 1.45vw;
+  word-spacing: 5px;
+}
+.gamesTextParent p{
+  font-size: 1.1vw;
+  color: grey;
+  font-weight: 300;
+}
+.videoParent{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.LatestGamesName h2{
+  font-size: 3.5vw;
+  text-transform: capitalize;
+  color: var(--pink);
+  font-weight: 700;
+}
+.LatestGamesName{
+  width: 100%;
+  text-align: center;
+  padding: 80px 0 10px 0;
+}
+@media screen and (max-width:1400px) and (min-width:1200px){
+  .video{
+  height: 450px;
+}
+}
+@media screen and (max-width:1190px) and (min-width:1000px){
+  .video{
+  height: 400px;
+}
+}
+@media screen and (max-width:990px) and (min-width:800px){
+  .video{
+  height: 400px;
+}
+}
+@media screen and (max-width:799px) and (min-width:600px){
+  .video{
+  height: 300px;
+}
+.gamesImgParent{
+  width: 25%;
+}
+.gamesParent{
+  gap: 0px 10px;
+}
+.gamesTextAParent{
+  padding: 10px 3px;
+}
+.gamesMainParent{
+  gap: 10px 0;
+  padding-top: 40px;
+}
+.latesGamesContentParent{
+  padding-bottom: 80px;
+}
+.LatestGamesName h2{
+  font-size: 28px;
+}
+}
+@media screen and (max-width:599px) and (min-width:450px){
+  .video{
+  height: 250px;
+}
+.gamesImgParent{
+  width: 25%;
+}
+.gamesParent{
+  gap: 0px 10px;
+}
+.gamesTextAParent{
+  padding: 3px 3px;
+}
+.gamesMainParent{
+  gap: 10px 0;
+  padding-top: 30px;
+}
+.latesGamesContentParent{
+  padding-bottom: 80px;
+}
+.LatestGamesName h2{
+  font-size: 28px;
+}
+.gamesTextAParent a{
+  word-spacing: 3px;
+}
+}
+
+@media screen and (max-width:449px) and (min-width:300px){
+  .video{
+  height: 180px;
+}
+.gamesImgParent{
+  width: 25%;
+}
+.gamesParent{
+  gap: 0px 10px;
+}
+.gamesTextAParent{
+  padding: 10px 5px;
+}
+.gamesMainParent{
+  gap: 10px 0;
+  padding-top: 30px;
+}
+.latesGamesContentParent{
+  padding-bottom: 80px;
+}
+.LatestGamesName h2{
+  font-size: 25px;
+}
+.gamesTextAParent a{
+  display: flex;
+  word-spacing: 0;
+}
+.LatestGamesName{
+  padding: 40px 0 10px 0;
+}
+}

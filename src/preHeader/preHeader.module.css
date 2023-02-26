@@ -1,0 +1,229 @@
+.preHeader{
+  background-color: #69D2E8;
+  padding: 1.5em 0;
+}
+.preHeaderSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchParent{
+  display: flex;
+  align-items: center;
+  gap:5%;
+}
+.searchParent input {
+  font-size: 1.3vw;
+  border: none;
+  width: 62%;
+  background: none;
+}
+.searchParent input::placeholder{
+  color: black;
+}
+.mailUl{
+  display: flex;
+  gap: 3.4vw;
+  /* border: solid; */
+  margin-left: -50px;
+}
+.mailUl li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: solid; */
+}
+.mailUl li a{
+  text-decoration: none;
+  color:  white;
+  font-size: 1.3vw;
+}
+
+.preHeaderButtonsParent{
+  display: flex;
+  gap: 20px;
+}
+.preHeaderButtonHover{
+  color: white;
+  font-size: 1.1vw;
+  padding: 10px 20px;
+  background: linear-gradient(#f43c60 0 0) no-repeat;
+  background-size: 100% 0%;
+  transition: .8s;
+}
+.preHeaderButton{
+  border: none;
+  background-color: var(--lightBlue);
+}
+.preHeaderButtonHover:hover{
+  background-size:100% 100% ;
+  transition: .8s;
+}
+/*//////////////////////////////////Modals/////////////////////////*/
+.logInModalMainParent{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logInModalParent{
+  display: flex;
+  flex-direction: column;
+  gap:20px 0;
+  width: 20%;
+  justify-content: center;
+  background-color: var(--lightBlue);
+  padding: 30px 25px 40px 25px;
+  border-radius: 20px;
+}
+.closeModalX{
+  width: fit-content;
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 2.5vw;
+  color: white;
+}
+.logInForm{
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+.registerForm{
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+
+}
+.registerForm input{
+  padding: 10px;
+  text-indent: 10px;
+  font-size: 1.2vw;
+}
+.logInForm input{
+  padding: 10px;
+  text-indent: 10px;
+  font-size: 1.2vw;
+}
+.logInButtonsParent{
+  display: flex;
+  justify-content: space-around;
+}
+.logInButtonsParent button{
+  border: none;
+  padding: 15px 25px;
+  background-color: var(--pink);
+  color: white;
+  font-size: 1.1vw;
+  border-radius: 10px;
+}
+.modalHeadName{
+  font-size: 1.8vw;
+  text-align: center;
+  color: var(--pink);
+}
+/*//////////////////////////////////Modals/////////////////////////*/
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .searchParent input {
+    width: 42%;
+  }
+  .iconsUl li a img{
+    width: 80%;
+  }
+  .iconsUl li a{
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .searchParent input {
+    width: 42%;
+  }
+  .iconsUl li a img{
+    width: 75%;
+  }
+  .searchParent img,.mailUl li img {
+    width: 20%;
+  }
+  .iconsUl{
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+  }
+  .mailUl li{
+    gap: 5px;
+  }
+  .mailUl{
+    gap: 10px;
+  }
+}
+@media screen and (max-width:599px) and (min-width:450px) {
+  .searchParent input {
+    width: 42%;
+  }
+  .iconsUl li a{
+    width: 80%;
+    margin-top: -2px;
+  }
+  .searchParent img,.mailUl li img {
+    width: 20%;
+  }
+  .iconsUl{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+  }
+  .mailUl li{
+    gap: 5px;
+  }
+  .mailUl{
+    gap: 0;
+    margin-left: -40px;
+  }
+  .searchParent img{
+    width: 12%;
+  }
+  .mailUl li img {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width:449px) and (min-width:300px) {
+  .searchParent input {
+    width: 42%;
+  }
+  .iconsUl li a{
+    width: 80%;
+    margin-top: -6px;
+  }
+  .searchParent img,.mailUl li img {
+    width: 20%;
+  }
+  .iconsUl{
+    display: flex;
+    gap: 8px;
+    padding-right: 10px;
+  }
+  .mailUl li{
+    gap: 5px;
+  }
+  .mailUl{
+    gap: 0;
+    margin-left: -20px;
+  }
+  .searchParent img{
+    width: 12%;
+  }
+  .mailUl li img {
+    width: 15%;
+  }
+  .preHeader{
+    background-color: #69D2E8;
+    padding: 15px 0;
+  }
+}

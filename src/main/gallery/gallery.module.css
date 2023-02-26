@@ -1,0 +1,184 @@
+.gallery{
+  padding: 70px 0;
+}
+.galleryHeadName{
+  font-size:3.4vw;
+  color: var(--pink);
+  text-align: center;
+}
+.galleryMainParent{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+.galleryParent{
+  width: 23%;
+  position: relative;
+}
+.galleryParent img{
+  width: 100%;
+}
+.galleryImgHover{
+  width: 100%;
+  position: absolute;
+  height: 98%;
+  transition: 0.5s;
+}
+.galleryImgHover:hover{
+  background-color: grey;
+  opacity: 0.6;
+}
+body{
+  transition: 1s;
+}
+.bgColor{
+  opacity: 0.4;
+  background-color: black;
+}
+.modal{
+  width: 100%;
+  height: 186vh;
+  background-color: rgba(0, 0, 0, 0.8) ;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+.modalParent{
+  display: flex;
+  top: 10%;
+  position: relative;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+}
+.modalImgParent{
+  opacity: 1;
+  border: 5px solid white;
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  border-radius: 1%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.left, .right{
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  font-size: 8vw;
+  background: none;
+  border: none;
+  color: white;
+  width: fit-content;
+  opacity: 0;
+  transition: 1s;
+}
+.left{
+  left: 15px;
+}
+.right{
+  right: 12px;
+}
+.left:hover,.right:hover {
+  opacity: 1;
+}
+.modalImgParent img{
+  width: 100%;
+}
+.motalTextParent{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.motalTextParent h4{
+  color: white;
+  font-size: 1.6vw;
+}
+.motalTextParent p{
+  color:grey;
+  font-size: 1.3vw;
+}
+.button{
+  background: none;
+  font-size: 5vw;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width:1400px) and (min-width:1200px) {
+  .galleryMainParent{
+    gap: 25px;
+  }
+}
+@media screen and (max-width:1190px) and (min-width:1000px) {
+  .galleryMainParent{
+    gap: 20px;
+  }
+}
+@media screen and (max-width:990px) and (min-width:800px) {
+  .galleryMainParent{
+    gap: 15px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px) {
+  .galleryMainParent{
+    gap: 15px 10px;
+    padding-top: 30px;
+  }
+  .galleryHeadName{
+    font-size:28px;
+  }
+  .gallery{
+    padding: 50px 0;
+  }
+  .modal{
+    height: 177vh;
+  }
+  .modalParent{
+    top: 25%;
+  }
+}
+
+@media screen and (max-width:599px) and (min-width:450px) {
+  .galleryMainParent{
+    gap: 10px 5px;
+    padding-top: 30px;
+  }
+  .galleryHeadName{
+    font-size:28px;
+  }
+  .gallery{
+    padding: 30px 0;
+  }
+  .modal{
+    height: 133vh;
+  }
+  .modalParent{
+    top: 25%;
+  }
+}
+
+@media screen and (max-width:449px) and (min-width:300px) {
+  .galleryMainParent{
+    gap: 10px 5px;
+    padding-top: 20px;
+  }
+  .galleryHeadName{
+    font-size:20px;
+  }
+  .gallery{
+    padding: 20px 0;
+  }
+  .modal{
+    height: 133vh;
+  }
+  .modalParent{
+    top: 25%;
+  }
+}
+
